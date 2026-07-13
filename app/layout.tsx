@@ -89,7 +89,8 @@ const TIKTOK_PIXEL_CODE = `
 `;
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://drwversity.com";
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+  "https://drwversity.drwskincare.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
