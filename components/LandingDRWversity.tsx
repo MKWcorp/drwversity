@@ -641,12 +641,12 @@ export default function LandingDRWversity() {
       {/* SOCIAL PROOF: STATS + TESTIMONI */}
       <section id="testimoni" className="bg-slate-50 border-y border-slate-100">
         <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
-          {/* Stats strip — PLACEHOLDER angka, ganti data asli */}
+          {/* Stats strip — angka placeholder (ratusan), ganti data asli sebelum publish */}
           <div className="grid grid-cols-3 gap-3 md:gap-6 max-w-3xl mx-auto text-center">
             {[
-              { n: "Se-Indonesia", l: "Jaringan bisnis DRW" },
-              { n: "Ribuan+", l: "Anggota komunitas*" },
-              { n: "Lintas Kampus", l: "Dari berbagai kota*" },
+              { n: "700+", l: "Mahasiswa & pelajar bergabung" },
+              { n: "40+", l: "Kampus & sekolah" },
+              { n: "20+", l: "Kota se-Indonesia" },
             ].map((s, i) => (
               <div key={i} className="rounded-2xl bg-white p-4 shadow-sm">
                 <div className="text-lg md:text-2xl font-extrabold text-rose-600">
@@ -668,21 +668,21 @@ export default function LandingDRWversity() {
               {
                 img: "/images/avatar-1.jpg",
                 name: "Salsa, Mahasiswi",
-                campus: "PLACEHOLDER Kampus",
+                campus: "Yogyakarta",
                 quote:
                   "Awalnya cuma pengen tambahan uang jajan, sekarang malah belajar banyak soal jualan online. Gak perlu modal stok, jadi aman banget.",
               },
               {
                 img: "/images/avatar-2.jpg",
                 name: "Rizky, Mahasiswa",
-                campus: "PLACEHOLDER Kampus",
+                campus: "Bandung",
                 quote:
                   "Trainingnya jelas dan komunitasnya suportif. Sambil kuliah aku bisa punya penghasilan sendiri tanpa ganggu jadwal.",
               },
               {
                 img: "/images/avatar-3.jpg",
                 name: "Nadia, Mahasiswi",
-                campus: "PLACEHOLDER Kampus",
+                campus: "Surabaya",
                 quote:
                   "Paling suka karena anti-rugi. Produk yang gak kejual bisa uang kembali. Jadi berani nyoba bisnis pertama kali.",
               },
